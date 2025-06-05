@@ -20,10 +20,15 @@ For this internship task, I was assigned to design a basic Arithmetic Logic Unit
 Design Overview
 
 The design consists of a 4-bit ALU module with two 4-bit inputs A and B, a 3-bit opcode input to select the desired operation, and a 4-bit output result that provides the outcome of the selected operation. The opcode defines the function performed by the ALU as follows:
+
 000: Addition (result = A + B)
+
 001: Subtraction (result = A - B)
+
 010: Bitwise AND (result = A & B)
+
 011: Bitwise OR (result = A | B)
+
 100: Bitwise NOT (on A only: result = ~A)
 
 The ALU is implemented using a combinational logic approach with a case statement inside an always @(*) block, which ensures the output is immediately updated whenever any input changes.
@@ -36,14 +41,19 @@ Simulation and Results
 The testbench was simulated using ModelSim, a popular HDL simulator. The simulation outputs were displayed both in the console using $display and $monitor, and visually through waveform viewing in the simulator’s GUI.
 The results showed that for every input combination and opcode, the ALU produced the correct output:
 Addition and subtraction produced expected binary sums and differences.
+
 Bitwise AND and OR operations correctly masked and combined bits.
+
 The NOT operation accurately inverted all bits of input A.
+
 The simulation waveform clearly shows the inputs changing in time, followed by immediate changes in the result output, validating the combinational nature of the ALU.
 
 Discussion
 
 This task provided valuable hands-on experience with digital design concepts and hardware description languages. Implementing an ALU reinforced understanding of how arithmetic and logic units operate at the hardware level and how to express combinational logic efficiently in Verilog.
+
 The use of a parameterized opcode made the design scalable and modular. The testbench’s automated verification approach proved effective in ensuring the ALU's correctness across different operations.
+
 While the ALU currently supports only five operations, the design can be extended to include additional functions such as XOR, NAND, NOR, shifts, and comparisons by expanding the opcode case statement. Also, further enhancements could include carry/borrow flags and overflow detection for more advanced arithmetic processing.
 
 Conclusion
