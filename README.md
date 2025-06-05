@@ -2,10 +2,15 @@
 
 
 *COMPANY*: CODTECH IT SOLUTIONS 
+
 *NAME*: Sujal Chavan
+
 *INTERN ID*: CT04DF1863
+
 *DOMAIN*: VLSI
+
 *DURATION*: 4 WEEKS
+
 *MENTOR*: NEELA SANTOSH
 
 # Description of the Task
