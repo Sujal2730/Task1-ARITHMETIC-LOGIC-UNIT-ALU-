@@ -52,3 +52,7 @@ In conclusion, this ALU design task successfully demonstrated the fundamental di
 
 #OUTPUT
 
+![Image](https://github.com/user-attachments/assets/5fa044e4-561d-4b05-86d9-82a9c9792fe0)
+
+
+![Image](https://github.com/user-attachments/assets/205e4d59-1d4a-43ae-97bb-2aa70261ac52)
