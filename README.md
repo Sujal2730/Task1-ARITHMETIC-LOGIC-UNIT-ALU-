@@ -60,7 +60,7 @@ Conclusion
 
 In conclusion, this ALU design task successfully demonstrated the fundamental digital design and verification process. Writing the Verilog code, building the testbench, running simulations, and analyzing results collectively strengthened my skills in hardware description and digital logic design. The ALU performs all specified operations correctly, and the simulation results confirm its expected functionality. This task is a critical step in understanding more complex processor architectures and VLSI design principles.
 
-#OUTPUT
+# OUTPUT
 
 ![Image](https://github.com/user-attachments/assets/5fa044e4-561d-4b05-86d9-82a9c9792fe0)
 
